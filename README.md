@@ -73,8 +73,8 @@ In New York City, public health compliance directly impacts consumer safety, din
 
 ### 2. Critical Violations Outnumber General Infractions Across Every Borough
 * More than half of all recorded violations across NYC are classified as **Critical** (posing direct food-borne illness risks):
-  * **Staten Island:** `55%` Critical share | **Queens & Bronx:** `54%` | **Brooklyn & Manhattan:** `53%`.
-* **Regional Nuance:** **Staten Island** achieved the **lowest (cleanest) overall average score** in 2025 despite having a `55%` critical share—indicating that when Staten Island restaurants are cited, they tend to have *fewer total violations per visit* compared to **Queens** (which recorded the highest average penalty score at `29`).
+  * **Staten Island:** `58%` Critical share | **Queens & Bronx:** `54%` | **Brooklyn & Manhattan:** `53%`.
+* **Regional Nuance:** **Staten Island** achieved the **lowest (cleanest) overall average score** in 2025 despite having a `58%` critical share—indicating that when Staten Island restaurants are cited, they tend to have *fewer total violations per visit* compared to **Queens** (which recorded the highest average penalty score at `29`).
 
 ### 3. High-Risk Cuisines Share Specific Operational Challenges
 * Among major cuisines (`200+` inspections), **Indian**, **Asian Other**, **Chinese**, and **Korean** restaurants recorded the highest average penalty scores and critical violation rates (`56%–58%`).
