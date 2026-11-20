@@ -31,7 +31,7 @@ In New York City, public health compliance directly impacts consumer safety, din
 * **Dynamic Titles & Subtitles:** Custom DAX measures automatically rewrite chart headers and explanatory subtitles (e.g., reminding users that *"Lower score = cleaner conditions"*) whenever the parameter selection changes.
 
 ### 3. Violation Code Drillthrough Guide (Stakeholder Glossary)
-![Violation Code Details Drillthrough Page](images/violation_code_details.png)
+![Violation Code Details Drillthrough Page](https://github.com/deepika-analyst/NYC-Restaurant-Health-Inspection-Data-Analysis/blob/main/Project%20Dashboard%20Pictures/Screenshot%20(340).png)
 * **One-Click Drillthrough UX:** Selecting any bar in the *Top 10 Health Code Violations* chart activates a dedicated **View Code Details** button, navigating to a clean reference page powered by a custom DAX `DATATABLE` that translates technical codes into severity levels and plain-English operational summaries.
 
 ---
