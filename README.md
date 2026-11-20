@@ -20,7 +20,7 @@ In New York City, public health compliance directly impacts consumer safety, din
 ## 📊 Dashboard Walkthrough
 
 ### 1. Executive Overview — Full-Year 2025 (`Average Score` View)
-![NYC Restaurant Health Inspections 2025 Dashboard - Average Score View](https://github.com/deepika-analyst/NYC-Restaurant-Health-Inspection-Data-Analysis/blob/main/Project%20Dashboard%20Pictures/Screenshot%202026-11-20%20113123.png)
+![NYC Restaurant Health Inspections 2025 Dashboard - Average Score View](https://github.com/deepika-analyst/NYC-Restaurant-Health-Inspection-Data-Analysis/blob/main/Project%20Dashboard%20Pictures/Screenshot%202026-11-20%20113259.pngv)
 * **Top KPI Banner:** Highlights full-year 2025 volume (**18,555** restaurants, **25,140** inspections), citywide penalty benchmark (**27.21**), dominant violation severity (**Critical**), and cleanest regional performer (**Staten Island**).
 * **Sanitation Score Gauge & Dynamic Grade Card:** Plots the active penalty score against NYC's Grade A target cutoff (`≤ 13`), paired with a dynamically color-coded letter-grade card (`Grade A` Green, `Grade B` Amber, `Grade C` Red) that recalculates on every cross-filter click.
 * **Safest & Riskiest Establishments:** Uses `TOPN` DAX logic to dynamically spotlight the cleanest (`Score: 0`) and highest-penalty (`Score: 203`) restaurants within any selected borough, cuisine, or month.
