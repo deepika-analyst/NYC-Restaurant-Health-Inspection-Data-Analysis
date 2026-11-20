@@ -1,4 +1,4 @@
-# 🍽️ NYC Restaurant Health Inspection Data Analysis (2015–2026 | Deep-Dive: 2025)
+# NYC Restaurant Health Inspection Data Analysis (2015–2026 | Deep-Dive: 2025)
 
 An end-to-end **Data Engineering, Exploratory SQL Analysis, and Executive Power BI Business Intelligence** project evaluating New York City Department of Health and Mental Hygiene (DOHMH) restaurant inspection data.
 
@@ -6,7 +6,7 @@ To build a robust analytical foundation, **~500,000+ raw inspection records (5 L
 
 ---
 
-## 🎯 Business Problem & Domain Context
+## Business Problem & Domain Context
 
 In New York City, public health compliance directly impacts consumer safety, dining trust, and restaurant survival. However, raw DOHMH inspection logs present three major analytical challenges for decision-makers:
 1. **Inverse Scoring Logic:** Unlike traditional grading systems, NYC health inspections assign **penalty points per violation**—meaning **0 is a perfect score** and higher scores indicate worse sanitary hazards (**Grade A:** `0–13`, **Grade B:** `14–27`, **Grade C:** `28+`).
@@ -17,7 +17,7 @@ In New York City, public health compliance directly impacts consumer safety, din
 
 ---
 
-## 📊 Dashboard Walkthrough
+## Dashboard Walkthrough
 
 ### 1. Executive Overview — Full-Year 2025 (`Average Score` View)
 ![NYC Restaurant Health Inspections 2025 Dashboard - Average Score View](https://github.com/deepika-analyst/NYC-Restaurant-Health-Inspection-Data-Analysis/blob/main/Project%20Dashboard%20Pictures/Screenshot%202026-11-20%20113259.png)
@@ -36,7 +36,7 @@ In New York City, public health compliance directly impacts consumer safety, din
 
 ---
 
-## 🛠️ End-to-End Engineering & Analytics Pipeline
+## End-to-End Engineering & Analytics Pipeline
 
 ### Phase 1: Locale & Date Standardization (Excel Power Query)
 * Raw NYC Open Data CSV exports store dates in US format (`MM/DD/YYYY`), causing type-conversion failures under `DD-MM-YYYY` regional settings.
@@ -65,7 +65,7 @@ In New York City, public health compliance directly impacts consumer safety, din
 
 ---
 
-## 🔍 Deep-Dive Analytical Insights
+## Deep-Dive Analytical Insights
 
 ### 1. Citywide Compliance Sits on the Grade B / Grade C Threshold
 * Across **18,555 restaurants** and **25,140 unique inspections** in 2025, NYC recorded an average penalty score of **27.21**—just shy of the **Grade C (`28+`)** threshold.
@@ -92,7 +92,7 @@ In New York City, public health compliance directly impacts consumer safety, din
 
 ---
 
-## 💡 Actionable Recommendations
+## Actionable Recommendations
 
 1. **Targeted Multilingual Kitchen Training:** Deploy DOHMH consultative workshops focused on cold/hot holding calibration (`02G`/`02B`) and utensil sanitization (`06D`) tailored to high-volume independent operators in **Queens** and top-scoring cuisine segments.
 2. **Pre-Summer Preventive Audits (April–May):** Increase proactive pest-proofing (`08A`) and refrigeration checks ahead of the June–August summer temperature spike to prevent Q3 score surges.
@@ -100,7 +100,7 @@ In New York City, public health compliance directly impacts consumer safety, din
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
     ├── data_cleaning/
     │   ├── 01_bulk_import_and_cleaning.sql      # Deduplication, null handling, cuisine standardization, indexing
@@ -117,7 +117,7 @@ In New York City, public health compliance directly impacts consumer safety, din
 
 ---
 
-## 🚀 How to Reproduce
+## How to Reproduce
 
 1. **Acquire Source Data:** Download the *DOHMH New York City Restaurant Inspection Results* CSV from [NYC Open Data](https://cityofnewyork.us).
 2. **Standardize Dates:** Open in Excel Power Query, apply `Using Locale -> Date -> English (United States)` to all date columns, and format as `YYYY-MM-DD`.
