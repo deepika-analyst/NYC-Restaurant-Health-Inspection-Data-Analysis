@@ -26,7 +26,7 @@ In New York City, public health compliance directly impacts consumer safety, din
 * **Safest & Riskiest Establishments:** Uses `TOPN` DAX logic to dynamically spotlight the cleanest (`Score: 0`) and highest-penalty (`Score: 203`) restaurants within any selected borough, cuisine, or month.
 
 ### 2. Dynamic Metric Switching (`Critical Violation %` View)
-![NYC Restaurant Health Inspections 2025 Dashboard - Critical Violation % View](images/dashboard_critical_violation.png)
+![NYC Restaurant Health Inspections 2025 Dashboard - Critical Violation % View](https://github.com/deepika-analyst/NYC-Restaurant-Health-Inspection-Data-Analysis/blob/main/Project%20Dashboard%20Pictures/Screenshot%202026-11-20%20113123.png)
 * **Unified Field Parameter Switcher:** Allows stakeholders to toggle seamlessly between **Restaurant Count**, **Total Inspections**, **Average Score**, and **Critical Violation %** across both the Cuisine and Borough charts simultaneously.
 * **Dynamic Titles & Subtitles:** Custom DAX measures automatically rewrite chart headers and explanatory subtitles (e.g., reminding users that *"Lower score = cleaner conditions"*) whenever the parameter selection changes.
 
